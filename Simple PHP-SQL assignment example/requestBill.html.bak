@@ -1,0 +1,50 @@
+<!--
+	Benjamin Kosty
+	requestBill.html
+	8/20/2023
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Lee's Landscape - Request Bill</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body style="background-color:#486F38;">
+		<h1 align='center' width = '20%' border = '0'>Request Bill Email</h1>
+	
+		<form method="post" action="sendBill.php">
+			<table align = 'center' width = '20%' border = '0'>
+				<tr>
+					<td width = '200'>Server name: </td>
+					<td width = '600'><input type="text" name="servername" size = '20' value="localhost"/></td>
+				</tr>
+
+				<tr>
+					<td width = '200'>Username: </td>
+					<td width = '600'><input type="text" name="username" size = '20'/></td>
+				</tr>
+				
+				<tr>
+					<td width = '200'>Password: </td>
+					<td width = '600'><input type="text" name="password" size = '20'/></td>
+				</tr>
+				
+				<tr>
+					<td width = '200'>Customer ID: </td>
+					<td width = '600'><input type="text" name="customerID" size = '20'/></td>
+				</tr>
+			</table>
+
+			
+			<div align='center' width = '20%' border = '0'>
+				<input type="submit"/>
+			</div>
+		</form>
+		
+	</body>
+
+</html>
